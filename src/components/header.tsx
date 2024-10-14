@@ -8,10 +8,10 @@ const Header = () => {
             {/* Left Section */}
             <div className="text-center lg:text-left lg:w-1/2 p-3">
                 <h1 className='text-[6vw] lg:text-[2.5vw] font-bold font-serif text-[#2B2C28]'>
-                    "Customized E-Commerce Solutions for Global Success"
+                    &quot;Customized E-Commerce Solutions for Global Success&quot;
                 </h1>
                 <h3 className='text-[4vw] lg:text-[1.8vw] font-mono text-[#2B2C28] my-4'>
-                    "Helping businesses grow worldwide with proven E-Commerce strategies"
+                    &quot;Helping businesses grow worldwide with proven E-Commerce strategies&quot;
                 </h3>
                 <Link href='' >
                     <button className='text-[4vw] lg:text-[1.3vw] font-bold py-3 px-6 rounded-lg capitalize mt-4 bg-[#339989] text-white hover:bg-[#7DE2D1] transition-colors duration-300'>

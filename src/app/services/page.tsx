@@ -27,7 +27,7 @@ const Services = () => {
                 </div>
                 <div className="text-[24px] text-center">
                     <h2 className='text-left m-4 font-medium text-[32px]' style={{ color: '#339989' }}>Customized Solutions:</h2>
-                    <p style={{ color: '#131515' }}>&quot; Our services are tailored to your business goals, whether you're a startup or an established brand. &quot;</p>
+                    <p style={{ color: '#131515' }}>&quot; Our services are tailored to your business goals, whether you&apos;re a startup or an established brand. &quot;</p>
                 </div>
             </div>
         </main>

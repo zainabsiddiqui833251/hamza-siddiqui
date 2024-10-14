@@ -11,11 +11,11 @@ const Blog_2 = () => {
                 </p>
                 
                 <p className='text-[#333333] text-[1.2vw] mb-3'>
-                    One of the most effective strategies within Amazon PPC is <b><u>keyword targeting</u></b>. Selecting the right keywords is vital for maximizing your return on investment (ROI). Start by conducting thorough keyword research using tools like Amazon’s Keyword Tool or third-party applications such as Helium 10. Focus on a mix of broad, phrase, and exact match keywords to capture different types of traffic. Long-tail keywords are particularly valuable as they often have lower competition and can lead to higher conversion rates. Once you have your list, incorporate these keywords into your campaigns, ensuring they align with the products you are promoting.
+                    One of the most effective strategies within Amazon PPC is <b><u>keyword targeting</u></b>. Selecting the right keywords is vital for maximizing your return on investment (ROI). Start by conducting thorough keyword research using tools like Amazon&apos;s Keyword Tool or third-party applications such as Helium 10. Focus on a mix of broad, phrase, and exact match keywords to capture different types of traffic. Long-tail keywords are particularly valuable as they often have lower competition and can lead to higher conversion rates. Once you have your list, incorporate these keywords into your campaigns, ensuring they align with the products you are promoting.
                 </p>
                 
                 <p className='text-[#333333] text-[1.2vw] mb-3'>
-                    <b><u>Budget management</u></b> is another critical aspect of Amazon PPC that can significantly impact your sales. It’s important to allocate your advertising budget effectively for optimal results. Start with a clear budget based on your sales goals and product margins. Monitor your campaigns regularly to determine which ads are performing well and adjust your budget accordingly. Consider using a daily budget to control your spending and maximize your exposure during peak shopping times.
+                    <b><u>Budget management</u></b> is another critical aspect of Amazon PPC that can significantly impact your sales. It&apos;s important to allocate your advertising budget effectively for optimal results. Start with a clear budget based on your sales goals and product margins. Monitor your campaigns regularly to determine which ads are performing well and adjust your budget accordingly. Consider using a daily budget to control your spending and maximize your exposure during peak shopping times.
                 </p>
                 
                 <p className='text-[#333333] text-[1.2vw] mb-3'>
@@ -23,7 +23,7 @@ const Blog_2 = () => {
                 </p>
                 
                 <p className='text-[#333333] text-[1.2vw] mb-3'>
-                    Once you've established successful campaigns, it’s time to scale them up to boost your sales by up to 50%. Implement <b><u>advanced tips</u></b> like utilizing negative keywords to filter out irrelevant traffic, adjusting bids based on performance, and expanding your keyword targeting to include variations of successful terms. Additionally, consider running Sponsored Brands and Sponsored Display ads alongside your Sponsored Products to enhance your overall visibility on Amazon. This multi-faceted approach not only drives more traffic to your listings but also increases the likelihood of conversions.
+                    Once you've established successful campaigns, it&apos;s time to scale them up to boost your sales by up to 50%. Implement <b><u>advanced tips</u></b> like utilizing negative keywords to filter out irrelevant traffic, adjusting bids based on performance, and expanding your keyword targeting to include variations of successful terms. Additionally, consider running Sponsored Brands and Sponsored Display ads alongside your Sponsored Products to enhance your overall visibility on Amazon. This multi-faceted approach not only drives more traffic to your listings but also increases the likelihood of conversions.
                 </p>
                 
                 <p className='text-[#333333] text-[1.2vw] mb-6'>

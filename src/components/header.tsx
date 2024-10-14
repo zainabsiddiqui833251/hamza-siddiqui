@@ -13,7 +13,7 @@ const Header = () => {
                 <h3 className='text-[4vw] lg:text-[1.8vw] font-mono text-[#2B2C28] my-4'>
                     &quot;Helping businesses grow worldwide with proven E-Commerce strategies&quot;
                 </h3>
-                <Link href='' >
+                <Link href='/contact' >
                     <button className='text-[4vw] lg:text-[1.3vw] font-bold py-3 px-6 rounded-lg capitalize mt-4 bg-[#339989] text-white hover:bg-[#7DE2D1] transition-colors duration-300'>
                         Start your journey
                     </button>

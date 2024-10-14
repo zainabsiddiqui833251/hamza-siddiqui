@@ -2,26 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.nav_links ul li a , span {
+    position: relative;
+    display: inline-block;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.nav_links ul li a::before ,span::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 50%;
+    background-color: white;
+    transition: width 0.4s ease, left 0.4s ease;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+/* Add any additional styles for dark mode elements */
+
+.nav_links ul li a:hover::before , span:hover::before {
+    width: 100%;
+    left: 0;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Dropdown links - underline from left to right */
+.dropdown-item a , .dropdown-item span {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-item a::after , .dropdown-item span::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: black;
+    transition: width 0.4s ease;
+}
+
+.dropdown-item a:hover::after ,.dropdown-item span:hover::after {
+    width: 100%;
+}
+.blog-card {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+.blog-card:hover{
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* Base styles for navbar text */
+.nav_links ul li {
+    font-size: 1.2vw; /* Default size for larger screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 430px) {
+    .nav_links ul li {
+        font-size: 4vw; /* Larger font size for small screens */
+    }
+    .buttons {
+        font-size: 3vw; /* Adjust buttons font size for small screens */
+    }
 }
